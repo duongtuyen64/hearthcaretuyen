@@ -24,7 +24,8 @@
     <color name="yellowMain">#FFA338</color>
     <color name="yellow_bg_light">#FFEBD3</color>
     <color name="greenMain2">#3EFDA1</color>
+    <color name="greyish">#EFF2F6</color>
     <color name="greenMain2_bg_light">#D6FDEA</color>
-    #92d2ec
+    #eff2f6
 
 </resources>

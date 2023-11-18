@@ -80,35 +80,15 @@
         tools:layout_editor_absoluteX="349dp"
         tools:layout_editor_absoluteY="75dp" />
 
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        tools:listitem = "@layout/item_medicines"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MyAdapter">
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            tools:listitem = "@layout/fragment_medicines1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="18dp"
-            android:layout_marginRight="20dp"
-            android:numColumns="2"
-            android:scrollbars="vertical" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView1"
-            tools:listitem = "@layout/fragment_medicines2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="200dp"
-            android:layout_marginRight="20dp"
-            android:numColumns="2"
-            android:scrollbars="vertical" />
-
-    </RelativeLayout>
-
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="20dp"
+        android:numColumns="2"
+        app:orientation="horizontal"
+        android:scrollbars="vertical"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
